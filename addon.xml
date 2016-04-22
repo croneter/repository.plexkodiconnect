@@ -4,9 +4,9 @@
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="PlexKodiConnect Repository">
-		<info compressed="false">http://embydata.com/downloads/addons/xbmb3c/kodi-repo/addons.xml</info>
-		<checksum>http://embydata.com/downloads/addons/xbmb3c/kodi-repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://embydata.com/downloads/addons/xbmb3c/kodi-repo/</datadir>
+		<info compressed="false">https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml</info>
+		<checksum>https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/croneter/repository.plexkodiconnect/repo/bin/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>PlexKodiConnect Addon Repository</summary>
