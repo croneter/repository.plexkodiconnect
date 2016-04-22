@@ -17,6 +17,6 @@
 *.RTF	 diff=astextplain
 
 # Ignore for release exports
-+.gitattributes export-ignore
-+.gitignore export-ignore
-+repo export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+repo export-ignore
