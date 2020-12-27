@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.plexkodiconnect" name="PlexKodiConnect Addons" version="1.0.0" provider-name="croneter">
+<addon id="repository.plexkodiconnectbeta" name="PlexKodiConnect Beta Addons for Kodi 19 Matrix" version="3.0.0" provider-name="Croneter">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
 	</requires>
-	<extension point="xbmc.addon.repository" name="PlexKodiConnect Repository">
-		<info compressed="false">https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml</info>
-		<checksum>https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/croneter/repository.plexkodiconnect/repo/bin/</datadir>
+	<extension point="xbmc.addon.repository" name="PlexKodiConnect Repository BETA Kodi 19 Matrix">
+		<info compressed="false">https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>PlexKodiConnect Addon Repository</summary>
-		<description>This repo contains the PlexKodiConnect main addon as well as the dependency addons</description>
+		<summary>PlexKodiConnect add-on repository for potentially unstable beta versions. Kodi 19 and later only.</summary>
+		<description>Please use the stable PlexKodiConnect repository for a more stable experience with Plex on Kodi.</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
