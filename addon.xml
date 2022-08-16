@@ -4,9 +4,11 @@
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="PlexKodiConnect Repository">
-		<info compressed="false">https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml</info>
-		<checksum>https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/croneter/repository.plexkodiconnect/repo/bin/</datadir>
+        <dir>
+		    <info compressed="false">https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml</info>
+		    <checksum>https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/croneter/repository.plexkodiconnect/repo/bin/</datadir>
+        </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>PlexKodiConnect Addon Repository</summary>
